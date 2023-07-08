@@ -135,19 +135,22 @@ body{
     padding: 60px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* My plan section style codes end */
 
-
+/* footer styles code start */
+.footer{
+    background: #151414;
+    color: #ffffff;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.footer-desc{
+    max-width: 550px;
+}
+/* footer styles code end */
 
 
 
