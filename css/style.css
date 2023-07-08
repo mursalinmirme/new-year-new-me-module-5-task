@@ -53,6 +53,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+.about-failar .failar-pic{
+    margin-right: 50px;
+}
 .about-failar .failar-info{
     max-width: 450px;
 }
@@ -65,14 +68,15 @@ body{
     font-size: 16px;
     color: #444343;
     margin-top: 15px;
+    line-height: 26px;
 }
 .about-failar .failar-info ul{
     list-style: none;
    
 }
 .about-failar .failar-info ul li{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .about-failar .failar-info ul li i{
-    
+    color: #16D887;
 }
