@@ -11,10 +11,30 @@ body{
     background-image: url('../images/banner/banner3.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
-
-
-
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.banner-wrap{
+    display: flex;
+    justify-content: end;
+}
+.banner-info{
+    width: 550px;
+    text-align: right;
+    padding: 200px 0;
+}
+.banner-info .banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.banner-info .banner-desc{
+    font-size: 16px;
+    color: #ffffff;
+}
 
 
 
