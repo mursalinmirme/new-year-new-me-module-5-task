@@ -5,5 +5,21 @@
     padding: 0;
 }
 body{
-
+    font-family: 'Work Sans', sans-serif;
 }
+.header{
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
