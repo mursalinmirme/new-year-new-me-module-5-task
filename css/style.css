@@ -48,9 +48,31 @@ body{
     border: none;
     outline: none;
 }
-
-
-
-
-
-
+.about-failar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-failar .failar-info{
+    max-width: 450px;
+}
+.about-failar .failar-info h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+.about-failar .failar-info p{
+    font-size: 16px;
+    color: #444343;
+    margin-top: 15px;
+}
+.about-failar .failar-info ul{
+    list-style: none;
+   
+}
+.about-failar .failar-info ul li{
+    margin-top: 10px;
+}
+.about-failar .failar-info ul li i{
+    
+}
