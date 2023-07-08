@@ -80,3 +80,54 @@ body{
 .about-failar .failar-info ul li i{
     color: #16D887;
 }
+
+/* My plan section style codes start */
+.my-plans{
+    margin-top: 100px;
+}
+.my-plan-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.planItems{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.plan-single-item{
+    text-align: center;
+}
+.plan-single-item img{
+    width: 95px;
+    height: 95px;
+}
+.plan-single-item h4{
+    font-size: 23px;
+    font-weight: 700;
+    color: #151414;
+    margin-top: 10px;
+}
+.plan-single-item h6{
+    color: #737272;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+
+/* My plan section style codes end */
+
+
+
+
+
+
+
+
+
+
+
+
+
