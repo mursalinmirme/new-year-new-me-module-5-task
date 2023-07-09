@@ -1,236 +1,226 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* font-family: 'Work Sans', sans-serif; */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: 'Work Sans', sans-serif;
+body {
+  font-family: "Work Sans", sans-serif;
 }
-.header{
-    background-image: url('../images/banner/banner1.png');
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 800px;
+.header {
+  background-image: url("../images/banner/banner1.png");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 800px;
 }
-.demoes{
-    display: flex;
-    justify-content: end;
-    padding-right: 175px;
-    list-style: none;
+.demoes {
+  display: flex;
+  justify-content: end;
+  padding-right: 175px;
+  list-style: none;
 }
-.demo{
-    padding: 10px 30px;
-    font-size: 20px;
-    color: #121212;
-    margin: 10px 0;
+.demo {
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #121212;
+  margin: 10px 0;
 }
-.demo a{
-    text-decoration: none;
-    color: #1c1b1b;
+.demo a {
+  text-decoration: none;
+  color: #1c1b1b;
 }
-.btnOneTwoBan{
-    background: #F15B22;
-    color: #ffffff;
+.btnOneTwoBan {
+  background: #f15b22;
+  color: #ffffff;
 }
-.container{
-    width: 1140px;
-    margin: 0 auto;
+.container {
+  width: 1140px;
+  margin: 0 auto;
 }
-.banner-wrap{
-    display: flex;
-    justify-content: end;
+.banner-wrap {
+  display: flex;
+  justify-content: end;
 }
-.banner-info{
-    width: 550px;
-    text-align: right;
-    padding: 160px 0;
+.banner-info {
+  width: 550px;
+  text-align: right;
+  padding: 160px 0;
 }
-.banner-info .banner-title{
-    font-size: 65px;
-    font-weight: 700;
-    color: #151414;
+.banner-info .banner-title {
+  font-size: 65px;
+  font-weight: 700;
+  color: #151414;
 }
-.banner-info .banner-desc{
-    font-size: 16px;
-    color: #444343;
-    margin-top: 15px;
-    line-height: 26px;
+.banner-info .banner-desc {
+  font-size: 16px;
+  color: #444343;
+  margin-top: 15px;
+  line-height: 26px;
 }
 
-.btn-primary{
-    font-size: 20px;
-    padding: 12px 16px;
-    margin-top: 20px;
-    color: #ffffff;
-    font-weight: 600;
-    border-radius: 4px;
-    border: none;
-    outline: none;
-    background: #F15B22;
+.btn-primary {
+  font-size: 20px;
+  padding: 12px 16px;
+  margin-top: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background: #f15b22;
 }
-.about-failar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.about-failar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.about-failar .failar-pic{
-    margin-right: 50px;
+.about-failar .failar-pic {
+  margin-right: 50px;
 }
-.about-failar .failar-info{
-    max-width: 450px;
+.about-failar .failar-info {
+  max-width: 450px;
 }
-.about-failar .failar-info h2{
-    font-size: 40px;
-    font-weight: 700;
-    color: #151414;
+.about-failar .failar-info h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
 }
-.about-failar .failar-info p{
-    font-size: 16px;
-    color: #444343;
-    margin-top: 15px;
-    line-height: 26px;
+.about-failar .failar-info p {
+  font-size: 16px;
+  color: #444343;
+  margin-top: 15px;
+  line-height: 26px;
 }
-.about-failar .failar-info ul{
-    list-style: none;
-   
+.about-failar .failar-info ul {
+  list-style: none;
 }
-.about-failar .failar-info ul li{
-    margin-top: 20px;
+.about-failar .failar-info ul li {
+  margin-top: 20px;
 }
-.about-failar .failar-info ul li i{
-    color: #16D887;
+.about-failar .failar-info ul li i {
+  color: #16d887;
 }
 
 /* My plan section style codes start */
-.my-plans{
-    margin-top: 100px;
+.my-plans {
+  margin-top: 100px;
 }
-.my-plan-title{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
+.my-plan-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
 }
-.planItems{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 60px;
+.planItems {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
 }
-.plan-single-item{
-    text-align: center;
+.plan-single-item {
+  text-align: center;
 }
-.plan-single-item img{
-    width: 95px;
-    height: 95px;
+.plan-single-item img {
+  width: 95px;
+  height: 95px;
 }
-.plan-single-item h4{
-    font-size: 23px;
-    font-weight: 700;
-    color: #151414;
-    margin-top: 10px;
+.plan-single-item h4 {
+  font-size: 23px;
+  font-weight: 700;
+  color: #151414;
+  margin-top: 10px;
 }
-.plan-single-item h6{
-    color: #737272;
-    margin-top: 10px;
-    font-size: 22px;
-    font-weight: 500;
+.plan-single-item h6 {
+  color: #737272;
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.advice-banner {
+  margin: 100px 0;
+}
+.advice-banner-container {
+  background-image: url("../images/gradient3.png"), url("../images/watch.png");
 
+  background-repeat: no-repeat;
+  border-radius: 8px;
 }
-.advice-banner{
-    margin: 100px 0;
+.advice-banner-container h1 {
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: normal;
 }
-.advice-banner-container{
-    background-image: url('../images/gradient3.png'),url('../images/watch.png');
-
-    background-repeat: no-repeat;
-    border-radius: 8px;
+.advice-banner-items {
+  max-width: 660px;
+  padding: 60px;
 }
-.advice-banner-container h1{
-    color: #ffffff;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: normal;
+.advice-btn {
+  background-color: #ffffff;
 }
-.advice-banner-items{
-    max-width: 660px;
-    padding: 60px;
-}
-.advice-btn{
-    background-color: #ffffff;
-}
-.btnOneTwo{
-    color: #F15B22;
+.btnOneTwo {
+  color: #f15b22;
 }
 /* My plan section style codes end */
 
 /* footer styles code start */
-.footer{
-    background: #151414;
-    color: #ffffff;
+.footer {
+  background: #151414;
+  color: #ffffff;
 }
-.footer-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 100px 0;
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
 }
-.footer-desc{
-    max-width: 550px;
+.footer-desc {
+  max-width: 550px;
 }
-.footer-desc h2{
-    color: #F8F8F8;
-    font-size: 33px;
-    font-weight: 700;
+.footer-desc h2 {
+  color: #f8f8f8;
+  font-size: 33px;
+  font-weight: 700;
 }
-.footer-desc p{
-    font-size: 16px;
-    color: #ffff;
-    line-height: 26px;
-    font-weight: 400;
-    margin-top: 15px;
+.footer-desc p {
+  font-size: 16px;
+  color: #ffff;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 15px;
 }
-.footer-desc .social-accounts{
-    margin-top: 15px;
+.footer-desc .social-accounts {
+  margin-top: 15px;
 }
-.footer-desc .social-accounts a{
-    text-decoration: none;
-    margin-right: 15px;
+.footer-desc .social-accounts a {
+  text-decoration: none;
+  margin-right: 15px;
 }
-.footer-desc .social-accounts a img{
-    width: 35px;
+.footer-desc .social-accounts a img {
+  width: 35px;
 }
-.footer-subscribe h3{
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 20px;
+.footer-subscribe h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
-.footer-subscribe input{
-    padding: 15px 20px;
-    color: #ffff;
-    background: none;
-    border: 1px solid #ffff;
-    outline: none;
-    font-size: 16px;
-    display: block;
-    border-radius: 10px;
-    width: 260px;
+.footer-subscribe input {
+  padding: 15px 20px;
+  color: #ffff;
+  background: none;
+  border: 1px solid #ffff;
+  outline: none;
+  font-size: 16px;
+  display: block;
+  border-radius: 10px;
+  width: 260px;
 }
-.footer-subscribe button{
-    background-color: #005FAC;
-    color:#ffff;
-    font-weight: 500;
-    font-size: 17px;
-
+.footer-subscribe button {
+  background-color: #005fac;
+  color: #ffff;
+  font-weight: 500;
+  font-size: 17px;
 }
 /* footer styles code end */
-
 
 /* project complete  */
 /* by */
 /* Mursalin Mir */
-
-
-
-
-
-
