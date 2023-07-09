@@ -8,31 +8,15 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 .header{
-    background-image: url('../images/banner/banner3.png');
+    background-image: url('../images/banner/banner2.png');
     /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: center center;
     height: 800px;
 }
-.demoes{
-    display: flex;
-    justify-content: end;
-    padding-right: 175px;
-    list-style: none;
-}
-.demo{
-    padding: 10px 30px;
-    font-size: 20px;
-    color: #ffffff;
-    margin: 10px 0;
-}
 .demo a{
     text-decoration: none;
-    color: #ffffff;
-}
-.btnOneTwoBan{
-    background: #F15B22;
-    color: #ffffff;
+    color: #1c1b1b;
 }
 .container{
     width: 1140px;
@@ -50,11 +34,11 @@ body{
 .banner-info .banner-title{
     font-size: 65px;
     font-weight: 700;
-    color: #ffffff;
+    color: #0f0e0e;
 }
 .banner-info .banner-desc{
     font-size: 16px;
-    color: #ffffff;
+    color: #131212;
     margin-top: 15px;
     line-height: 26px;
 }
@@ -68,6 +52,10 @@ body{
     border-radius: 4px;
     border: none;
     outline: none;
+}
+.demoTwoBanBtn{
+    background: #F15B22;
+    color: #ffffff;
 }
 .about-failar{
     display: flex;
@@ -140,7 +128,7 @@ body{
     margin: 100px 0;
 }
 .advice-banner-container{
-    background-image: url('../images/gradient1.png'),url('../images/watch.png');
+    background-image: url('../images/gradient2.png'),url('../images/watch.png');
 
     background-repeat: no-repeat;
     border-radius: 8px;
